@@ -1,0 +1,7 @@
+module.exports = {
+    // Za dobijanje svojih parametara,
+    // otici na https://github.com/settings/developers
+    // i registrovati novu OAuth aplikaciju
+    clientId: "XXXX",
+    clientSecret: "XXXX"
+};

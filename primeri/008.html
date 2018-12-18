@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RP - Kreiranje tokova iz obecanja</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-1">GitHub User Search</h1>
+
+        <div class="card my-3">
+            <label for="search" class="card-header">Search for a user:</label>
+            <div class="card-body">
+                <input type="text" id="search" name="search" class="form-control">
+            </div>
+        </div>
+
+        <div class="card" id="profile">
+            <h5 class="card-header" id="username"></h5>
+            <div class="card-body">
+                <h5 class="card-title" id="name"></h5>
+                <div class="card-text row">
+                    <div class="col-md-4">
+                        <img class="img-thumbnail" id="avatar" alt="user image">
+                    </div>
+                    <div class="col-md-8 d-flex align-items-start flex-column mb-3">
+                        <div class="bg-primary text-white p-1 my-1 d-inline-block"><span id="public_repos"></span> public repos</div>
+                        
+                        <div class="bg-success text-white p-1 my-1 d-inline-block"><span id="followers"></span> followers</div>
+                        
+                        <div class="bg-info text-white p-1 my-1 d-inline-block mb-auto"><span id="following"></span> following</div>
+
+                        <a id="html_url" href="#" target="_blank" class="btn btn-primary py-2">Visit the profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>let primer = "008";</script>
+    <script src="../dist/app.bundle.js"></script>
+</body>
+</html>
