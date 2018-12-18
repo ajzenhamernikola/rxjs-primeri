@@ -4,7 +4,7 @@ Repozitorijum koji sadrzi primere za ucenje biblioteke RxJS 6.
 
 ### Potrebni alati za rad
 
-1. [Node.js](https://nodejs.org/en/){:target="_blank"}
+1. [Node.js](https://nodejs.org/en/)
 
 ### Pokretanje primera
 
