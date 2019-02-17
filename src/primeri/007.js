@@ -29,7 +29,7 @@ export function main()
         .subscribe(getSubscriber("range"));
 
     // Operator of(...args) pravi tok od bilo koje vrednosti
-    rxjs.of(45, ["Niz", "niski"])
+    rxjs.of(45, ["Niz", "niski"], {})
         .subscribe(getSubscriber("of"));
 
     // Operator defer(observableFactory) nam omogucava da kreiramo tok

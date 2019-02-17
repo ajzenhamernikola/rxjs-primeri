@@ -25,7 +25,7 @@ export function main()
         observer.next(Date.now());
     })
     // Ne mozemo direktno pozvati publish
-    // jer se od verzije 5.5 koristi metod push
+    // jer se od verzije 5.5 koristi metod pipe
     // za ulancavanje operatora nad tokom.
     // Za vise informacija pogledati:
     // https://github.com/ReactiveX/rxjs/blob/91088dae1df097be2370c73300ffa11b27fd0100/doc/pipeable-operators.md
